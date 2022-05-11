@@ -53,3 +53,7 @@ article {
     text-align: center;
     width: 100%;
 }
+
+img[alt*=logo] {
+    margin: 20px;
+}
