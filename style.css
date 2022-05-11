@@ -2,28 +2,32 @@ html {
     background-color: rgb(38, 42, 54);
 }
 
-p {
-    color: white;
-}
-
-h2 {
-    color: white;
-}
-
+h2,
 h3 {
     color: white;
+    width: 350;
+    margin: 0 auto;
+    text-align: center;
 }
 
-a {
+p {
     color: white;
+    width: 350;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 500;
+    min-width: 350;
 }
 
-a:hover {
-    color: rgb(97, 173, 255)
+#more a {
+    color: white;
+    width: 350;
+    margin: 0 auto;
+    max-width: 500;
+    min-width: 350;
 }
 
-td,
-th {
+td {
     color: white;
     text-align: center;
 }
@@ -46,14 +50,15 @@ article {
     margin: 10px
 }
 
+.bar a:hover {
+    color: rgb(97, 173, 255)
+}
+
 .bar {
     border: 1px solid rgb(38, 42, 54);
     padding: 40px 0px;
-    position: relative;
-    text-align: center;
-    width: 100%;
 }
 
 img[alt*=logo] {
-    margin: 20px;
+    margin: 20px !important;
 }
