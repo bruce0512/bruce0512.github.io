@@ -15,8 +15,6 @@ p {
     width: 350;
     margin: 0 auto;
     text-align: left;
-    max-width: 500;
-    min-width: 350;
 }
 
 #more a {
