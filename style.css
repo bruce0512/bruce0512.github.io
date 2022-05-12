@@ -37,9 +37,6 @@ article {
     margin: 40px 10px;
     padding: 10px;
     background-color: rgb(38, 42, 54);
-    position: sticky;
-    top: 120px;
-
 }
 
 .bar a {
