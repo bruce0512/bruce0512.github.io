@@ -34,13 +34,17 @@ td {
 article {
     border: 3px solid white;
     border-radius: 10px;
-    margin: 20px 10px;
+    margin: 40px 10px;
     padding: 10px;
+    background-color: rgb(38, 42, 54);
+    position: sticky;
+    top: 40px;
+
 }
 
 .bar a {
     background-color: white;
-    color: black;
+    color: rgb(38, 42, 54);
     border: 1px solid white;
     border-radius: 10px;
     display: inline-block;
@@ -49,12 +53,13 @@ article {
 }
 
 .bar a:hover {
-    color: rgb(97, 173, 255)
+    color: white;
+    background-color: rgb(38, 42, 54);
 }
 
 .bar {
     border: 1px solid rgb(38, 42, 54);
-    padding: 40px 0px;
+    padding: 5px 0px;
     text-align: center;
 }
 
@@ -62,3 +67,15 @@ img[alt*=logo] {
     margin: 20px !important;
 }
 
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    background-color: rgb(38, 42, 54);
+    border-bottom: 3px solid white;
+}
+
+#加入天文社 {
+    margin-top: 240px;
+}
