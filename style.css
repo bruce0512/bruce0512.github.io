@@ -39,10 +39,19 @@ article {
     background-color: rgb(38, 42, 54);
 }
 
+/* menu bottom*/
+.menu {
+    position: fixed;
+    right: 15px;
+    bottom: 100px;
+    opacity: 0.8;
+}
+
 /* logo */
 .logo {
-    position: fixed;
+    position: sticky;
     top: 0px;
+    left: 0px;
     z-index: 10;
     width: 100%;
     background-color: rgb(38, 42, 54);
@@ -68,9 +77,8 @@ article {
 
 .bar {
     border: 1px solid rgb(38, 42, 54);
-    padding: 130px 0px 5px;
+    padding: 5px 0px;
     text-align: center;
-
 }
 
 /* footer */
